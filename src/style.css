@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Alkatra;
+    src: url(../public/Alkatra/static/Alkatra-Regular.ttf);
+}
+@font-face {
+    font-family: Rock_Salt;
+    src: url(../public/Rock_Salt/RockSalt-Regular.ttf);
+}
+#root{
+    background-image: url('../public/fond2.jpg');
+    background-size: cover;
+}
+header{
+    height:120px;
+    /* background-color: rgb(227, 181, 181); */
+}
+.logo{
+    margin:2rem 0 0 4rem;
+    box-shadow: 2px 2px 3px rgb(207, 205, 205);
+}
+.headNav{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+.headList{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li:first-of-type{
+    margin:0 0 4rem 32vw;
+}
+li{
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgb(80, 78, 78);
+    padding:0 1rem 0 1rem;
+    font-family: Alkatra;
+    font-size: 2rem;
+    list-style-type: none;
+    margin:0 0 4rem 3rem;
+}
+li:last-of-type{
+    margin:0 0 4rem 3rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    /* position:relative; */
+    text-align: center;
+}
+footer{
+    margin-top:1rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:80px;
+    background-color: rgb(177, 177, 214);
+}
+footer a{
+    color:black;
+    font-size: 2rem;
+
+}
+article{
+    width:50%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.contain{
+    width:80%;
+    margin:1rem auto 3rem;
+    background-color: antiquewhite;
+    /* border: 1px solid black; */
+    /* border-radius: 15px; */
+    padding-bottom: 3rem;
+}
+h2{
+    font-family: Rock_Salt;
+    font-size:2rem;
+    padding-top: 2rem;
+}
+.contain img{
+    rotate:5deg;
+    box-shadow: 3px 3px 5px grey;
+}
+.countContain{
+    position:absolute;
+    right:12rem;
+}
+.faqContain{
+    background-color: black;
+    border-radius: 50%;
+    color:white;
+    text-align: center;
+    height:80px;
+    width:40vw;
+    margin: 1rem auto;
+}
+.faqContain p:first-of-type{
+    padding-top: 0.7rem;
+}
+span{
+    color:orange;
+}
