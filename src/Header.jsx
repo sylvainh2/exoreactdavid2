@@ -1,4 +1,4 @@
-const Header = ()=>{
+const Header = ({user})=>{
     return(
         <header>
             <nav className="headNav">
@@ -7,6 +7,11 @@ const Header = ()=>{
                     <li><a href="#">About</a></li>
                     <li><a href="#">Comment</a></li>
                     <li><a href="#">Contact</a></li>
+                    {user.isLogged?(
+                        <li>Voir mon Profil</li>
+                    ):(
+                        <li>Créer un compte</li>
+                    )}
                 </ul>
             </nav>           
         </header>
